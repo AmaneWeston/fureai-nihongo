@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Merriweather:wght@700&family=Noto+Sans+JP:wght@400;500&display=swap');
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -17,4 +19,9 @@
   .container {
     width: 300px;
   }
+}
+
+body {
+  font-family: 'Charis SIL', serif;
+  font-weight: 400; /* if you want the light version */
 }

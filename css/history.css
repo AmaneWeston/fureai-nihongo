@@ -1,12 +1,23 @@
-body * {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
 
 body h1 {
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body a {
+  text-decoration: none !important;
+  margin-left: 1rem;
+}
+
+.back p {
+  border: 1px solid #ccc;
 }
 
 body span {

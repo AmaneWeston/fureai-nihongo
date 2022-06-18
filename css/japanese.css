@@ -1,25 +1,48 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700"); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700"); */
 
 body * {
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
 }
 
+/* Page Title */
 body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 4px dotted #FF7F3F;
-  width: 45%;
+  width: 50%;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 24px auto;
+  padding: 10px;
+}
+
+body h2, body h3, body .class-category {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+body h2 {
+  font-size: 32px;
+}
+
+body h3 {
+  font-size: 24px;
+}
+
+body .class-category {
+  color: #FF7F3F;
 }
 
 body a {
   text-decoration: none !important;
-  margin-left: 1rem;
 }
 
 .back p {
-  border: 1px solid #ccc;
+  color: #FF7F3F;
+  margin: 2rem;
 }
 
 body span {
@@ -35,11 +58,14 @@ body p {
   font-size: 18px;
 }
 
-body h1 {
-  font-size: 36px;
-  margin: 8px auto;
-  padding: 10px;
-  font-weight: bold;
+body hr {
+  width: 80%;
+  border-top: 1px dashed #FF7F3F;
+}
+
+/* History */
+.history {
+  margin-bottom: 4rem;
 }
 
 dl {
@@ -70,8 +96,59 @@ dl dd {
   border-left: 2px solid #ccc;
 }
 
+/* Class details */
+.details-jp {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+}
+
+/* About class */
+.about-class {
+  margin-bottom: 4rem;
+}
+
+/* Class level */
+.class-level {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.class-level p {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.class-level h3 {
+  margin-top: 4rem;
+}
+
+/* Textbooks we use */
+.textbooks-in-class {
+  margin-top: 4rem;
+}
+
+.textbooks-in-class h3 {
+  margin-top: 2rem;
+}
+
+/* Images */
 .group-photo {
   width: 50%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbook {
+  display: flex;
+  align-items: center;
+  justify-content: space;
+}
+
+.textbook-photo {
+  width: 35%;
   height: auto;
   margin: auto;
   margin-bottom: 1rem;

@@ -9,6 +9,8 @@ body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 4px dotted #FF7F3F;
+  width: 45%;
 }
 
 body a {

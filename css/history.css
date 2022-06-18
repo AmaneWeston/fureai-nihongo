@@ -13,12 +13,16 @@ h1 {
   margin: 8px auto;
   padding: 10px;
   font-weight: bold;
+  border-bottom: 4px dotted #95CD41;
+  width: 45%;
 }
 
-a {
+.back a {
   text-decoration: none;
   margin-left: 1rem;
   border: 1px solid #ccc;
+  border-radius: 40%;
+  width: 20%;
 }
 
 span {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Merriweather:wght@700&family=Noto+Sans+JP:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -22,6 +21,48 @@
 }
 
 body {
-  font-family: 'Charis SIL', serif;
-  font-weight: 400; /* if you want the light version */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 24px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.row {
+  padding: 40px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 32px;
 }

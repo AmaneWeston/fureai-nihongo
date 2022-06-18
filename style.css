@@ -67,6 +67,10 @@ body {
   margin-bottom: 1.8rem;
 }
 
+.nounderline {
+  text-decoration: none !important
+}
+
 .copywrite {
   display: flex;
   align-items: center;

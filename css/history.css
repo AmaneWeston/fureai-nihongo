@@ -5,22 +5,23 @@ body {
   box-sizing: border-box;
 }
 
-body h1 {
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  margin: 8px auto;
+  padding: 10px;
+  font-weight: bold;
 }
 
-body a {
-  text-decoration: none !important;
+a {
+  text-decoration: none;
   margin-left: 1rem;
-}
-
-.back p {
   border: 1px solid #ccc;
 }
 
-body span {
+span {
   font-size: 18px;
   margin: 16px;
   padding: 16px;
@@ -28,16 +29,9 @@ body span {
   justify-content: center;
 }
 
-body p {
+p {
   /* line-height: 1.8; */
   font-size: 18px;
-}
-
-body h1 {
-  font-size: 36px;
-  margin: 8px auto;
-  padding: 10px;
-  font-weight: bold;
 }
 
 dl {

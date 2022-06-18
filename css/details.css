@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body * {
+  font-family: 'Open Sans', sans-serif;
+  /* box-sizing: border-box; */
+}
+
+/* Page Title */
+body h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px dotted #F6D860;
+  width: 50%;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 24px auto;
+  padding: 10px;
+}
+
+body h2, body h3, body .class-category {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+body h2 {
+  font-size: 32px;
+}
+
+body h3 {
+  font-size: 24px;
+}
+
+body .class-category {
+  color: #F6D860;
+}
+
+body span {
+  font-size: 18px;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+body p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+body hr {
+  width: 80%;
+  border-top: 1px dashed #F6D860;
+}
+
+/* Go back to homepage */
+body a {
+  text-decoration: none !important;
+}
+
+.back p {
+  color: #F6D860;
+  margin: 1rem;
+}
+
+/* Class details */
+.details {
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+}
+
+.details p, .details span {
+  font-size: 20px;
+}
+
+/* About class */
+.about-class {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+/* Class level */
+.class-level {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.class-level p {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.class-level h3 {
+  margin-top: 4rem;
+}
+
+/* Textbooks we use */
+.textbooks-in-class {
+  margin-top: 4rem;
+}
+
+.textbooks-in-class h3 {
+  margin: 2rem 0;
+}
+
+/* Images */
+.group-photo {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbook {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space;
+}
+
+.textbook-photo {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -5,13 +5,19 @@ body * {
   box-sizing: border-box;
 }
 
+.history {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+}
+
+/* Page Title */
 body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 4px dotted #95CD41;
-  width: 45%;
-  font-size: 36px;
+  width: 50%;
+  font-size:  2.25rem;
   font-weight: bold;
   margin: 24px auto;
   padding: 10px;
@@ -67,11 +73,10 @@ dl dd {
   border-left: 2px solid #ccc;
 }
 
+/* Image */
 .group-photo {
   width: 50%;
   height: auto;
   margin: 24px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem 0;
 }

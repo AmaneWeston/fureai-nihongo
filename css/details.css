@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body * {
-  font-family: 'Noto Sans JP', sans-serif;
-  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  /* box-sizing: border-box; */
 }
 
 /* Page Title */
@@ -10,7 +10,7 @@ body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 4px dotted #FF7F3F;
+  border-bottom: 4px dotted #F6D860;
   width: 50%;
   font-size: 2.25rem;
   font-weight: bold;
@@ -33,17 +33,7 @@ body h3 {
 }
 
 body .class-category {
-  color: #FF7F3F;
-}
-
-/* Go back to homepage */
-body a {
-  text-decoration: none !important;
-}
-
-.back p {
-  color: #FF7F3F;
-  margin: 2rem;
+  color: #F6D860;
 }
 
 body span {
@@ -55,57 +45,39 @@ body span {
 }
 
 body p {
-  /* line-height: 1.8; */
+  line-height: 1.8;
   font-size: 18px;
 }
 
 body hr {
   width: 80%;
-  border-top: 1px dashed #FF7F3F;
+  border-top: 1px dashed #F6D860;
 }
 
-/* History */
-.history {
-  margin-bottom: 4rem;
+/* Go back to homepage */
+body a {
+  text-decoration: none !important;
 }
 
-dl {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-dl dt {
-  text-align: right;
-  width: 8.5em;
-  padding: 0.5em 1.0em 0.5em 0.5em;
-  position: relative;
-}
-
-dl dt::after {
-  content: '●';
-  position: absolute;
-  right: -0.55em;
-  top: 5px;
-  font-size: 22px;
-  color: green;
-}
-
-dl dd {
-  width: calc(100% - 8.5em);
-  padding: 0.5em 2.0em 3.0em;
-  border-left: 2px solid #ccc;
+.back p {
+  color: #F6D860;
+  margin: 1rem;
 }
 
 /* Class details */
-.details-jp {
+.details {
   margin: 1rem 0;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+}
+
+.details p, .details span {
+  font-size: 20px;
 }
 
 /* About class */
 .about-class {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 
 .about-class img {
@@ -136,24 +108,15 @@ dl dd {
 }
 
 .textbooks-in-class h3 {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 /* Images */
-.group-photo {
-  width: 50%;
-  height: auto;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .textbook {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space;
-  margin-top: 1rem;
 }
 
 .textbook-photo {

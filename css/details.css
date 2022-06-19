@@ -112,15 +112,6 @@ body a {
 }
 
 /* Images */
-.group-photo {
-  width: 50%;
-  height: auto;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .textbook {
   margin-top: 2rem;
   display: flex;

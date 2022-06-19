@@ -136,7 +136,7 @@ dl dd {
 }
 
 .textbooks-in-class h3 {
-  margin-top: 2rem;
+  margin: 2rem;
 }
 
 /* Images */
@@ -153,6 +153,7 @@ dl dd {
   display: flex;
   align-items: center;
   justify-content: space;
+  margin-top: 1rem;
 }
 
 .textbook-photo {
